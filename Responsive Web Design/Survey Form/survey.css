@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(156, 187, 212);
+    color: antiquewhite;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+form {
+    background-color: rgb(125, 151, 190);
+    border-radius: 10px;
+    padding: 5%;
+    margin: 0 auto;
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    
+}
+
+
+select {
+    width: 85%;
+    padding: 3%;
+    border-radius: 5px;
+    border-style: none;
+}
+
+form :nth-child(1n) {
+    margin: 3% 0;
+}
+
+
+form  input[type="text"], [type="email"], [type="number"]{
+    width: 90%;
+    padding: 3%;
+    border-radius: 5px;
+    border-style: none;
+ }
+
+ textarea {
+    width: 95%;
+ }
+
+button {
+    background-color: rgb(90, 125, 146);
+    border-style: none;
+    color: antiquewhite;
+    border-radius: 5px;
+    padding: 3%;
+}
+ 
