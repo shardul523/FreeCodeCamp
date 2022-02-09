@@ -1,0 +1,208 @@
+body {
+    background-color: #F0F0F0;
+    margin: 0;
+    
+}
+
+a:hover {
+    color: #F1D00A;
+}
+
+
+/* Header Styling */
+
+header {
+    background-color: #21325E;
+    /* min-width: 240px; */
+    margin-bottom: 2.5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    flex-wrap: wrap;
+    width: 100%;
+} 
+
+
+header > .container > .logo {
+    color: #F1D00A;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 0;
+  
+}
+
+
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    
+}
+
+#nav-bar a{
+    margin-left: 1rem;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+
+#nav-bar a:hover {
+    color: #F1D00A;
+}
+
+@media (max-width: 300px)
+{
+    header > .container {
+        flex-direction: column;
+    }
+
+    #nav-bar {
+        flex-direction: column;
+    }   
+
+}
+
+
+/* Main Content Styling */
+
+
+
+
+main {
+    color: #21325E;
+    margin-top: 250px;
+}
+
+main h1 {
+    grid-column: 1/3;
+    justify-self: center;
+    font-size: 2.5rem;
+}
+
+main h1, h2, h3{
+    color: #3E497A;
+}
+
+
+/* About US Styling */
+
+.me {
+    width: 80%;
+    margin: 0% auto;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 1.5rem;
+    grid-auto-rows: max-content;
+}
+
+i {
+    justify-self: center;
+    align-self: center;
+    color: #F1D00A;
+}
+
+/* HTW Styling */
+
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe {
+    max-width: 560px;
+    width: 100%;
+}
+
+/* Pricing Section */
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.pricing .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pricing .container > * {
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem;
+    align-items: center;
+    width: 150px;
+    border: 2px solid #21325E;
+    border-radius: 5px;
+    margin: 2vw;
+}
+
+/* Contact Section */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+.contact form {
+    padding: 10%;
+}
+
+.contact form input[type="email"] {
+    padding: 0.3rem;
+    width: 90%;
+}
+
+.contact form input[type="submit"] {
+    display: block;
+    width: auto;
+    margin: 10% auto;
+    padding: 0.5rem;
+    background-color: #F1D00A;
+    border-style: none;
+    font-weight: bolder;
+}
+
+/* Footer Styling */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #21325E;
+    color: #F0F0F0;
+    padding: 0.6rem 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F0F0F0;
+}
+
+footer .foot-link {
+    display: flex;
+}
+
+footer .foot-link > * {
+    margin-right: 1rem;
+    
+}
